@@ -1,2 +1,2 @@
 <?php
-DataObject::add_extension('SiteConfig', 'CustomSiteConfig');
+DataObject::add_extension('SiteConfig', 'AddressSiteConfig');

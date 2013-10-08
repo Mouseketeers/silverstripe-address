@@ -1,5 +1,5 @@
 <?php
-class AdressSiteConfig extends DataObjectDecorator {
+class AddressSiteConfig extends DataObjectDecorator {
 	function extraStatics() {
 		return array(
 			'db' => array(
@@ -9,6 +9,7 @@ class AdressSiteConfig extends DataObjectDecorator {
 				'Phone' => 'Varchar(255)',
 				'Fax' => 'Varchar(255)',
 				'Email' => 'Varchar(255)'
+			)
 		);
 	}
 	public function updateCMSFields(FieldSet &$fields) {
